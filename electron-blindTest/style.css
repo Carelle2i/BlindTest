@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #app {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #question-container {
+    margin: 20px 0;
+  }
+  
+  #options button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+  }
+  
+  #next-btn {
+    display: none;
+  }
+  
