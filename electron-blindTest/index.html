@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blindtest Quiz</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    #app {
+      max-width: 600px;
+      margin: 40px auto;
+    }
+    .question-container {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .option-button {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="app" class="container">
+    <h1 class="text-center mb-4">Blindtest Quiz</h1>
+    <div id="question-container" class="question-container">
+      <h2 id="question" class="mb-4">Question goes here</h2>
+      <div id="options" class="list-group">
+  
+      </div>
+    </div>
+    <button id="next-btn" class="btn btn-primary mt-4 d-none">Next</button>
+  </div>
+  <script src="renderer.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
