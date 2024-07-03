@@ -11,6 +11,7 @@ const questions = [
         type: 'multiple',
         question: "D'après l'une de ses chansons où Georges Brassens voulait-il être enterré ?",
         options: ["Sur la plage de Sète", "Au bar des copaind d'abord", "Au Père Lachaise", "A Brive-La-Gaillarde"],
+        answer: "Sur la plage de Sète"
     },
     {
         type: 'multiple',
@@ -19,7 +20,7 @@ const questions = [
         answer: "Michel Jonasz"
     },
     {
-        type: 'nultiple',
+        type: 'multiple',
         question: "En quelle année on aura 20 ans selon Pierre Bachelet ? ",
         options: ["L'an 1", "L'an 1999", "L'an 2001", "L'an passé"],
         answer: "L'an 2001"
