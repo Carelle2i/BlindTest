@@ -1,45 +1,28 @@
-const { BrowserWindow, Menu, app, ipcMain } = require('electron');
-const path = require('node:path');
+const { app, BrowserWindow } = require('electron');
+const path = require('path');
 
-function createWindow() {
-    const mainWindow = new BrowserWindow({
-        webPreferences: {
-            preload: path.join(__dirname, 'preload.js')
-        }
-    })
+function createWindow () {
+  const mainWindow = new BrowserWindow({
+    width: 800,
+    height: 600,
+    webPreferences: {
+      preload: path.join(__dirname, 'preload.js'),
+      nodeIntegration: true,
+      contextIsolation: false
+    }
+  });
 
-    mainWindow.loadFile('index.html')
-    // mainWindow.webContents.openDevTools()
+  mainWindow.loadFile('index.html');
 }
 
-
-
-
-
-const template = [
-    {
-        label: 'Editer',
-        submenu: [
-            { role: 'undo' },
-            { role: 'redo' }
-        ]
-    },
-    
-
-]
-
-const menu = Menu.buildFromTemplate(template)
-Menu.setApplicationMenu(menu)
-
-
-
-
 app.whenReady().then(() => {
-    createWindow();
-})
+  createWindow();
+
+  app.on('activate', function () {
+    if (BrowserWindow.getAllWindows().length === 0) createWindow();
+  });
+});
 
 app.on('window-all-closed', function () {
-    if (process.platform !== 'darwin')
-        app.quit()
-})
-
+  if (process.platform !== 'darwin') app.quit();
+});
