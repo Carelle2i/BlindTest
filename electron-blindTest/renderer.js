@@ -1,2 +1,2 @@
-const answerINput = document.getElementById("answer-input");
+const answerInput = document.getElementById("answer-input");
 
