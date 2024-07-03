@@ -12,6 +12,11 @@ function createWindow() {
     // mainWindow.webContents.openDevTools()
 }
 
+ipcMain.on('fetch-data', (event, question) => {
+    const data = fs.readFileSync(path.join(__dirname, './questions.json'))
+    
+})
+
 
 
 

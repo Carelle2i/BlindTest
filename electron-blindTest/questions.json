@@ -1,0 +1,88 @@
+[
+    {
+        "id": 1 ,
+        "question": "D'après l'une de ses chansons où Georges Brassens voulait-il être enterré ? ",
+        "answers": {
+            "answerA": "Sur la plage de Sète",
+            "answerB":"Au bar des copaind d'abord",
+            "answerC":"Au Père Lachaise",
+            "answerD":"A Brive-La-Gaillarde"
+        },
+        "correct_answer": {
+            "answerA_isCorrect": "true",
+            "answerB_isCorrect":"false",
+            "answerC_isCorrect":"false",
+            "answerD_isCorrect":"false"
+
+        }
+    },
+    {
+        "id": 2,
+        "question": "A quel chanteur doit-on la chanson 'Dites-moi' ? ",
+        "answers": {
+            "answerA": "Michel Delpech",
+            "answerB":"Michel Simon",
+            "answerC":"Michel Jonasz",
+            "answerD":"Michel Fugain"
+        },
+        "correct_answer": {
+            "answerA_isCorrect": "false",
+            "answerB_isCorrect":"false",
+            "answerC_isCorrect":"true",
+            "answerD_isCorrect":"false"
+
+        }
+    },
+    {
+        "id": 3,
+        "question": "En quelle année on aura 20 ans selon Pierre Bachelet ? ",
+        "answers": {
+            "answerA": "L'an 1",
+            "answerB":"L'an 1999",
+            "answerC":"L'an 2001",
+            "answerD":"L'an passé"
+        },
+        "correct_answer": {
+            "answerA_isCorrect": "false",
+            "answerB_isCorrect":"false",
+            "answerC_isCorrect":"true",
+            "answerD_isCorrect":"false"
+
+        }
+    },
+    {
+        "id": 4,
+        "question": " Quel est le nom du groupe de rock formé par Dave Grohl ? ",
+        "answers": {
+            "answerA": "Nirvana",
+            "answerB":"Queen Of The Stone Age",
+            "answerC":"Tenacious D",
+            "answerD":"Foo Fighters"
+        },
+        "correct_answer": {
+            "answerA_isCorrect": "false",
+            "answerB_isCorrect":"false",
+            "answerC_isCorrect":"false",
+            "answerD_isCorrect":"true"
+
+        }
+    },
+    {
+        "id": 5,
+        "question": "",
+        "answers": {
+            "answerA": "",
+            "answerB":"",
+            "answerC":"",
+            "answerD":""
+        },
+        "correct_answer": {
+            "answerA_isCorrect": "",
+            "answerB_isCorrect":"",
+            "answerC_isCorrect":"",
+            "answerD_isCorrect":""
+
+        }
+    }
+
+]
