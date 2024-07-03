@@ -35,7 +35,7 @@ const questions = [
     {
         type: 'multiple',
         question: "Qui chante 'Shape of You'?",
-        options: ["Ed Sheeran", "Justin Bieber", "Taylor Swift", "Adele"],
+        options: ["Ed Sheeran", "Justin Bieber", "Michel Jonasz", "Sam Smith"],
         answer: "Ed Sheeran"
       }
 
