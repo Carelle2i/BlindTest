@@ -7,24 +7,40 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 const questions = [
-  {
-    type: 'multiple',
-    question: "Who is the artist of the song 'Shape of You'?",
-    options: ["Ed Sheeran", "Justin Bieber", "Taylor Swift", "Adele"],
-    answer: "Ed Sheeran"
-  },
-  {
-    type: 'boolean',
-    question: "The song 'Thriller' by Michael Jackson came out in 1982.",
-    options: ["True", "False"],
-    answer: "True"
-  },
-  {
-    type: 'short',
-    question: "What year did the song 'Thriller' by Michael Jackson come out?",
-    answer: "1982"
-  }
-];
+    {
+        type: 'multiple',
+        question: "D'après l'une de ses chansons où Georges Brassens voulait-il être enterré ?",
+        options: ["Sur la plage de Sète", "Au bar des copaind d'abord", "Au Père Lachaise", "A Brive-La-Gaillarde"],
+    },
+    {
+        type: 'multiple',
+        question: "A quel chanteur doit-on la chanson 'Dites-moi' ? ",
+        options: ["Michel Delpech", "Michel Simon", "Michel Jonasz", "Michel Fugain"],
+        answer: "Michel Jonasz"
+    },
+    {
+        type: 'nultiple',
+        question: "En quelle année on aura 20 ans selon Pierre Bachelet ? ",
+        options: ["L'an 1", "L'an 1999", "L'an 2001", "L'an passé"],
+        answer: "L'an 2001"
+    },
+    {
+        type: 'multiple',
+        question: " Quel est le nom du groupe de rock formé par Dave Grohl ? ",
+        options: ["Nirvana", "Queen Of The Stone Age", "Tenacious D", "Foo Fighters"],
+        answer: "Foo Fighters"
+
+    },
+    {
+        type: 'multiple',
+        question: "Qui chante 'Shape of You'?",
+        options: ["Ed Sheeran", "Justin Bieber", "Taylor Swift", "Adele"],
+        answer: "Ed Sheeran"
+      }
+
+]
+
+
 
 function startGame() {
   currentQuestionIndex = 0;
